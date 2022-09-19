@@ -134,7 +134,14 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 350px;
+}
+
+.our {
+    color: #000080;
+    text-align: center;
+    width: 1130px;
+    margin: 30px auto;
 }
 
 .card {
@@ -191,4 +198,32 @@ a .btn-area {
     background-color: transparent;
     border: 2px solid #000080;
     cursor: pointer;
+}
+
+.team {
+    /* background-color: green; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    /* height: 180px; */
+    height: 95vh;
+    padding: 50px 0px;
+    position: relative;
+    justify-content: center;
+}
+
+.team-img {
+    width: 24%;
+    margin: auto;
+    height: 75vh;
+    padding: 2px;
+    /* background-color: rgb(14, 230, 86); */
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-family: cursive;
 }
